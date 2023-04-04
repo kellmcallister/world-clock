@@ -5,3 +5,8 @@ h1 {
 footer {
   text-align: center;
 }
+.container {
+  max-width: 600px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
