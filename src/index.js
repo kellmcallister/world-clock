@@ -1,12 +1,40 @@
 function updateTime() {
-  let cityDateElement = document.querySelector("#city-row .city-date");
-  cityDateElement.innerHTML = moment()
+  let chicagoDateElement = document.querySelector("#chicago .city-date");
+  chicagoDateElement.innerHTML = moment()
     .tz("America/Chicago")
     .format("dddd, MMMM Do, YYYY");
 
-  let cityTimeElement = document.querySelector("#city-row .city-time");
-  cityTimeElement.innerHTML = moment()
+  let chicagoTimeElement = document.querySelector("#chicago .city-time");
+  chicagoTimeElement.innerHTML = moment()
     .tz("America/Chicago")
+    .format("h:mm:ss A");
+
+  let reykjavikDateElement = document.querySelector("#reykjavik .city-date");
+  reykjavikDateElement.innerHTML = moment()
+    .tz("Atlantic/Reykjavik")
+    .format("dddd, MMMM Do, YYYY");
+
+  let reykjavikTimeElement = document.querySelector("#reykjavik .city-time");
+  reykjavikTimeElement.innerHTML = moment()
+    .tz("Atlantic/Reykjavik")
+    .format("h:mm:ss A");
+
+  let romeDateElement = document.querySelector("#rome .city-date");
+  romeDateElement.innerHTML = moment()
+    .tz("Europe/Rome")
+    .format("dddd, MMMM Do, YYYY");
+
+  let romeTimeElement = document.querySelector("#rome .city-time");
+  romeTimeElement.innerHTML = moment().tz("Europe/Rome").format("h:mm:ss A");
+
+  let sydneyDateElement = document.querySelector("#sydney .city-date");
+  sydneyDateElement.innerHTML = moment()
+    .tz("Australia/Sydney")
+    .format("dddd, MMMM Do, YYYY");
+
+  let sydneyTimeElement = document.querySelector("#sydney .city-time");
+  sydneyTimeElement.innerHTML = moment()
+    .tz("Australia/Sydney")
     .format("h:mm:ss A");
 }
 
