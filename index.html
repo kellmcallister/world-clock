@@ -11,6 +11,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+
     <title>World Clock</title>
   </head>
   <body>
@@ -24,7 +27,7 @@
         <option value="">Reykjavik, Iceland</option>
       </select>
       <br />
-      <div class="row city-box">
+      <div class="row city-box" id="austin">
         <div class="col-6">
           <div class="city-name">Austin, TX, USA</div>
           <div class="city-date">Tuesday, April 4th, 2023</div>
@@ -34,7 +37,7 @@
         </div>
       </div>
       <br />
-      <div class="row city-box">
+      <div class="row city-box" id="rome">
         <div class="col-6">
           <div class="city-name">Rome, Italy</div>
           <div class="city-date">Tuesday, April 4th, 2023</div>
@@ -44,7 +47,7 @@
         </div>
       </div>
       <br />
-      <div class="row city-box">
+      <div class="row city-box" id="sydney">
         <div class="col-6">
           <div class="city-name">Sydney, Australia</div>
           <div class="city-date">Wednesday, April 5th, 2023</div>
@@ -54,7 +57,7 @@
         </div>
       </div>
       <br />
-      <div class="row city-box">
+      <div class="row city-box" id="reykjavik">
         <div class="col-6">
           <div class="city-name">Reykjavik, Iceland</div>
           <div class="city-date">Tuesday, April 4th, 2023</div>
