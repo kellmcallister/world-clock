@@ -33,6 +33,13 @@ strong {
   text-align: center;
   background-color: #f8e7e7;
 }
+.city-box {
+  margin: 0px auto;
+  padding: 8px;
+  border: 1px solid #724060;
+  border-radius: 6px;
+  width: 90%;
+}
 .city-name {
   font-size: 24px;
 }
@@ -43,11 +50,4 @@ strong {
 .city-time {
   font-size: 28px;
   margin-top: 9px;
-}
-.city-box {
-  margin: 0px auto;
-  padding: 8px;
-  border: 1px solid #724060;
-  border-radius: 6px;
-  width: 90%;
 }
