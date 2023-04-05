@@ -1,12 +1,53 @@
+body {
+  background-color: #fdf3f3;
+}
 h1 {
   text-align: center;
-  color: mediumspringgreen;
+  color: #724060;
+}
+select {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #fdf9f9;
 }
 footer {
   text-align: center;
+  color: #a070a1;
+}
+strong {
+  font-weight: 600;
+  color: #724060;
 }
 .container {
+  border: 1px solid #724060;
+  border-radius: 6px;
+  box-shadow: rgba(114, 64, 96, 0.4) 0px 2px 4px 0px,
+    rgba(114, 64, 96, 0.32) 0px 2px 16px 0px;
   max-width: 600px;
-  border: 2px solid black;
-  border-radius: 3px;
+  max-height: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f8e7e7;
+}
+.city-name {
+  font-size: 24px;
+}
+.city-date {
+  font-size: 16px;
+  margin: 0 auto;
+}
+.city-time {
+  font-size: 28px;
+  margin-top: 9px;
+}
+.city-box {
+  margin: 0px auto;
+  padding: 8px;
+  border: 1px solid #724060;
+  border-radius: 6px;
+  width: 90%;
 }
