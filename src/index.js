@@ -69,7 +69,11 @@ function cityUpdate(event) {
             <div class="city-time">${cityTime.format("h:mm:ss A")}</div>
           </div>
         </div>
-        <a href="/">Back to KMac's fave cities</a>
+        <span>
+        <a href="https://mcallister-weather-app-project.netlify.app/">See weather forecast</a>
+        </span>
+        <span>
+        <a href="/">Back to KMac's fave cities</a></span>
         `;
   setInterval(() => {
     cityUpdate(event);
@@ -78,14 +82,3 @@ function cityUpdate(event) {
 
 let citySelect = document.querySelector("#city-dropdown");
 citySelect.addEventListener("change", cityUpdate);
-
-/* Home page cities: Austin, wanaka, edinburgh, sorrento
-Beach cities: aruba hawaii maldives seychelles borabora
-Ski cities: denver france switzerland whistler/canada niseko/japan
-Nightlife cities: barcelona paris dublin lisbon amsterdam prague las vegas buenos aires sao paulo new york
-Wine Country: italy france spain argentina california australia
-        <option value="Beach">Best Beaches</option>
-        <option value="Ski">Ski Spots</option>
-        <option value="Nightlife">Nightlife</option>
-        <option value="Wine">Wine Regions</option>
-*/
